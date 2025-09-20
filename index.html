@@ -73,7 +73,7 @@
         .about-text { max-width: 800px; margin: 0 auto; font-size: 1.1rem; color: #555; }
 
         /* Projects */
-        .projects-grid {
+        .<div class="projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 1.5rem;
@@ -159,7 +159,7 @@
     <!-- Projects Section -->
     <section id="projects">
         <h2 class="section-title">Projects</h2>
-        <div class="projects-grid">
+        <div class="<div class="projects-grid">
             <!-- Project 1: Flight Search -->
             <div class="project-card">
                 <div class="project-title">Flight Search Web Application</div>
@@ -204,29 +204,36 @@
                 </ul>
                 <a href="https://github.com/moncef09/social-image-builder" class="project-button" target="_blank">GitHub Repo</a>
             </div>
-            <!-- Project 5: RoboCafe -->
-            <div class="project-card">
-                <div class="project-title">RoboCafe</div>
-                <p class="project-desc">Robotics project to automate café tasks using an XArm robot.</p>
-                <ul class="project-list">
-                    <li>Implements control scripts for an XArm robotic arm to pick, place and serve items.</li>
-                    <li>Includes calibration routines and dataset generation tools for training.</li>
-                    <li>Designed to demonstrate automation in a café environment.</li>
-                </ul>
-                <a href="https://github.com/moncef09/RoboCafe" class="project-button" target="_blank">GitHub Repo</a>
-            </div>
-        </div>
-    </section>
+           <!-- Project 5: RoboCafe -->
+    <div class="project-card">
+        <div class="project-title">RoboCafe</div>
+        <p class="project-desc">Robotics project to automate café tasks using an XArm robot.</p>
+        <ul class="project-list">
+            <li>Implements control scripts for an XArm robot to pick, place and serve items.</li>
+            <li>Includes calibration routines and dataset generation tools for training.</li>
+            <li>Designed to demonstrate autonomous service robot deployment.</li>
+        </ul>
+        <a href="https://github.com/moncef09/RoboCafe" class="project-button" target="_blank">GitHub Repo</a>
+    </div>
+        
+    
+        <!-- Project 6: Stock Trading System -->
+    <div class="project-card">
+        <div class="project-title">Stock Trading System</div>
+        <p class="project-desc">C++ program implementing an object-oriented trading system.</p>
+        <ul class="project-list">
+            <li>Implements Stock and Order classes encapsulating data and behaviour.</li>
+            <li>Uses inheritance for buy/sell orders with polymorphic execution.</li>
+            <li>Trader class manages portfolio and orders using composition.</li>
+        </ul>
+        <a href="https://github.com/moncef09/stock-trading-system" class="project-button" target="_blank">GitHub Repo</a>
+    </div>
+    </div>
+</section>
+      
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2 class="section-title">Skills</h2>
-        <div class="skills-list">
-            <div class="skill-badge">Python</div>
-            <div class="skill-badge">JavaScript</div>
-            <div class="skill-badge">Flask</div>
-            <div class="skill-badge">MySQL</div>
-            <div class="skill-badge">React</div>
+
+    <!-- Skills Section --><         <div class="skill-badge">React</div>
             <div class="skill-badge">LangChain</div>
             <div class="skill-badge">AI/ML</div>
             <div class="skill-badge">Automation</div>
